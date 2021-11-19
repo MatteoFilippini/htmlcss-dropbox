@@ -13,10 +13,8 @@
 }
 
 .big-container{
-    background-color: blue;
     width: 1200px;
     margin: 0 auto;
-    height: 105%;
 }
 
 .small-container{
@@ -24,6 +22,10 @@
     width: 900px;
     margin: 0 auto;
     /* height: 800px; */
+}
+
+.col{
+    float: left;
 }
 
 .col.w-20{
@@ -44,8 +46,12 @@
     color: white;
 }
 
+.col.w-80{
+    width: 80%;
+}
+
 .m-100{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .left-text{
@@ -67,7 +73,7 @@
 
 .btn{
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 8px 15px;
 }
 
 .btn.btn-blue{
@@ -79,14 +85,12 @@
     opacity: 0.8;
 }
 
-/* .top-header{
+/* TOP-HEADER */
+.top-header{
     position: fixed;
     width: 100%;
-} */
-/* TOP-HEADER */
-.col{
-    float: left;
-    border: 1px solid white;
+    background-color: #fff;
+    z-index: 1;
     padding: 20px;
 }
 
@@ -112,9 +116,46 @@
 /* BOTTOM-HEADER */
 .bottom-header{
     /* da togliere */
-    height: 500px;
+    height: 600px;
     background-color: lightblue;
+    padding: 20px 70px;
+    position: relative;
+    top: 70px;
 } 
+
+.bottom-header h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#jumbo{
+    width: 100%;
+}
+
+.col.w-30 p{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.col.w-30 a{
+    text-decoration: none;
+}
+
+.col.w-30 span{
+    margin-top: 20px;
+    display: block;
+    color: black;
+    font-size: 12px;
+}
+
+.col.w-30 .fas{
+    margin-top: 30px;
+    color: black;
+    font-size: 50px;
+}
 
 /* BUSINESS-PLAN */
 .license{
