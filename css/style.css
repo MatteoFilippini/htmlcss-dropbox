@@ -21,7 +21,6 @@
     background-color: green;
     width: 900px;
     margin: 0 auto;
-    /* height: 800px; */
 }
 
 .col{
@@ -34,7 +33,7 @@
 
 .col.w-30{
     width: 30%;
-    color: white;
+    /* color: white; */
 }
 
 .w-50{
@@ -43,7 +42,7 @@
 
 .col.w-70{
     width: 70%;
-    color: white;
+    /* color: white; */
 }
 
 .col.w-80{
@@ -79,10 +78,12 @@
 .btn.btn-blue{
     background-color: #0061FF;   
     color: white;
+    transition: opacity 1s;
 }
 
 .btn.btn-blue:hover{
     opacity: 0.8;
+    color: white;
 }
 
 /* TOP-HEADER */
@@ -113,9 +114,12 @@
     color: black;
 }
 
+.main-menu a:hover{
+    color: #0061FF;
+}
+
 /* BOTTOM-HEADER */
 .bottom-header{
-    /* da togliere */
     height: 600px;
     background-color: lightblue;
     padding: 20px 70px;
@@ -158,13 +162,56 @@
 }
 
 /* BUSINESS-PLAN */
+.business-plan h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.business-plan label{
+    margin-right: 30px;
+}
+
+/* FIX RADIO BUTTON */
+
 .license{
-    border: 1px solid red;
-    margin: 20px;
+    border: 1px solid lightgrey;
+    line-height: 40px;
+    padding: 20px;
+    height: 900px;
 }
 
 .license-people{
-    border-bottom: 1px solid red;
+    vertical-align: middle;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.license-price i{
+    font-style: normal;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.license-time{
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.license-advantage{
+    font-size: 12px;
+}
+
+.license-functions li{
+    font-size: 12px;
+    list-style-type: none;
+}
+
+hr{
+    margin: 20px 0;
+    width: 20%;
 }
 
 /* ENTERPRISE */
@@ -175,6 +222,10 @@
 
 .enterprise-title{
     border: 1px solid red;
+}
+
+.enterprise-contact{
+    margin-top: 30px;
 }
 
 /* PARTNER */
