@@ -1,0 +1,173 @@
+/* utilities */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.big-container{
+    background-color: blue;
+    width: 1200px;
+    margin: 0 auto;
+    height: 105%;
+}
+
+.small-container{
+    background-color: green;
+    width: 900px;
+    margin: 0 auto;
+    /* height: 800px; */
+}
+
+.col.w-20{
+    width: 20%;
+}
+
+.col.w-30{
+    width: 30%;
+    color: white;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.col.w-70{
+    width: 70%;
+    color: white;
+}
+
+.m-100{
+    margin-top: 100px;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.right-text{
+    text-align: right;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.m-both{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.btn.btn-blue{
+    background-color: #0061FF;   
+    color: white;
+}
+
+.btn.btn-blue:hover{
+    opacity: 0.8;
+}
+
+/* .top-header{
+    position: fixed;
+    width: 100%;
+} */
+/* TOP-HEADER */
+.col{
+    float: left;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.main-menu ul{
+    list-style: none;
+}
+
+.main-menu li{
+    display: inline;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.main-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+/* BOTTOM-HEADER */
+.bottom-header{
+    /* da togliere */
+    height: 500px;
+    background-color: lightblue;
+} 
+
+/* BUSINESS-PLAN */
+.license{
+    border: 1px solid red;
+    margin: 20px;
+}
+
+.license-people{
+    border-bottom: 1px solid red;
+}
+
+/* ENTERPRISE */
+.enterprise{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.enterprise-title{
+    border: 1px solid red;
+}
+
+/* PARTNER */
+
+/* CARDS */
+
+/* SQUARE */
+.square{
+    background-color: darkgray;
+    height: 300px;
+
+}
+
+/* FAQ */
+.faq h1{
+    margin-bottom: 30px;
+}
+
+.row{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding:30px 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    height: 500px;
+    padding: 60px 80px;
+}
+
+.col.w-20{
+    border: 1px solid white;
+}
+
+
