@@ -18,7 +18,7 @@
 }
 
 .small-container{
-    /* background-color: green; */
+    background-color: green;
     width: 900px;
     margin: 0 auto;
 }
@@ -86,6 +86,16 @@
     color: white;
 }
 
+.btn.btn-white{
+    border: 1px solid black;   
+    color: black;
+    transition: background-color 1s;
+}
+
+.btn.btn-white:hover{
+    background-color: lightgrey;
+}
+
 /* TOP-HEADER */
 .top-header{
     position: fixed;
@@ -138,13 +148,17 @@
 
 .col.w-30 p{
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     margin-right: 50px;
     margin-bottom: 30px;
 }
 
 .col.w-30 a{
+    text-decoration: none;
+}
+
+.col.w-50 a{
     text-decoration: none;
 }
 
@@ -243,8 +257,78 @@ hr{
 }
 
 /* PARTNER */
+.partner{
+    margin-top: 70px;
+}
+.partner-image{
+    background-image: url(../img/partner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+.partner-text{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.partner-text h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.partner-text p{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
 
 /* CARDS */
+.operations h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.card-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#tools{
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+#coordinate{
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+#device{
+    background-image: url(../img/business-feature-multi-device.png);
+}
+
+#integrations{
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+
+#files{
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+
+#security{
+    background-image: url(../img/business-feature-security.png);
+}
+
+.card{
+    border: 1px solid red;
+}
+
+.card-text p{
+    margin-top: 10px;
+}
 
 /* SQUARE */
 .square{
