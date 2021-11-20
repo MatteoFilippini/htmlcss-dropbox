@@ -169,11 +169,11 @@
     font-size: 12px;
 }
 
-.col.w-30 .fas{
+/* .col.w-30 .fas{
     margin-top: 30px;
     color: black;
     font-size: 50px;
-}
+} */
 
 /* BUSINESS-PLAN */
 .business-plan h2{
@@ -340,12 +340,19 @@ hr{
 /* FAQ */
 .faq h1{
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 .row{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    padding:30px 0;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.fa-chevron-down:before{
+    margin-left: 300px;
+    cursor: pointer;
 }
 
 /* FOOTER */
