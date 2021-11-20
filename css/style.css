@@ -70,6 +70,11 @@
     margin-right: 45px;
 }
 
+.m-both-square{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
 .btn{
     font-size: 14px;
     padding: 8px 15px;
@@ -330,10 +335,86 @@ hr{
 }
 
 /* SQUARE */
-.square{
-    background-color: darkgray;
-    height: 300px;
+.square-title h3{
+    font-size: 30px;
+}
 
+.square-link{
+    padding: 20px 0;
+}
+
+.square-link a{
+    color: #0061FF;
+    font-size: 12px;
+}
+
+.square{
+    background-color: lightgray ;
+    height: 400px;
+}
+
+.square-image.w-50{
+    height: 200px;
+    width: 200px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.square-text{
+    padding: 40px 0;
+}
+
+#square-logo{
+    width: 100px;
+    height: 50px;
+    background-image: url(../img/designit.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+#designit{
+    background-color: lightgreen;
+    background-image: url(../img/designit.svg);
+}
+#arizona{
+    background-color: purple;
+    background-image: url(../img/arizona_state_university.svg);
+}
+#florida{
+    background-color: rgb(11, 140, 184);
+    background-image: url(../img/university_of_florida.svg);
+}
+#toops{
+    background-color: rgb(238, 62, 62);
+    background-image: url(../img/topps.svg);
+}
+#bicycle{
+    background-color: red;
+    background-image: url(../img/world_bicycle_relief.svg);
+}
+#hearst{
+    background-color: lightblue;
+    background-image: url(../img/hearst_corp.svg);
+}
+#planet{
+    background-color: blue;
+    background-image: url(../img/lonely_planet.svg);
+}
+#channel{
+    background-color: yellow;
+    background-image: url(../img/clear_channel.svg);
+}
+
+#square-bottom{
+    background-color: lightblue;
+    padding: 100px;
+}
+
+#square-bottom h3{
+    font-size: 30px ;
+    color: purple;
 }
 
 /* FAQ */
