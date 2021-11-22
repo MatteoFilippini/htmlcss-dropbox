@@ -33,7 +33,10 @@
 
 .w-30{
     width: 30%;
-    /* color: white; */
+}
+
+.w-33{
+    width: calc(100% / 3 - 30px);
 }
 
 .w-50{
@@ -42,7 +45,6 @@
 
 .w-70{
     width: 70%;
-    /* color: white; */
 }
 
 .w-80{
@@ -84,6 +86,7 @@
     background-color: #0061FF;   
     color: white;
     transition: opacity 1s;
+    border: 1px solid #0061FF;
 }
 
 .btn.btn-blue:hover{
@@ -183,6 +186,8 @@
     color: #0061FF;
 }
 
+
+
 .business-plan h2{
     margin-top: 200px;
     font-size: 30px;
@@ -194,6 +199,11 @@
 }
 
 /* FIX RADIO BUTTON */
+
+
+
+
+
 
 .license{
     border: 1px solid lightgrey;
@@ -222,8 +232,12 @@
     margin-bottom: 20px;
 }
 
-.license-advantage{
+.license-advantage li{
+    line-height: 30px;
     font-size: 12px;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 20px;
 }
 
 .license-functions li{
@@ -334,6 +348,7 @@ hr{
 }
 
 /* SQUARE */
+
 .square-title h3{
     font-size: 30px;
 }
@@ -349,15 +364,17 @@ hr{
 
 .square{
     background-color: lightgray ;
-    height: 400px;
 }
 
 .square-image.w-50{
-    height: 200px;
-    width: 200px; 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 300px;
+    width: 50%;
+    position: relative;   
+    transition: border 1s;  
+}
+
+.square-image.w-50:hover{
+    border: 10px solid lightgray;
 }
 
 .square-text{
@@ -373,37 +390,41 @@ hr{
     margin-bottom: 30px;
 }
 
+.square-text p{
+    margin-bottom: 30px;
+}
+
+.center{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 #designit{
-    background-color: lightgreen;
-    background-image: url(../img/designit.svg);
+    background-color: lightgreen;   
 }
 #arizona{
     background-color: purple;
-    background-image: url(../img/arizona_state_university.svg);
 }
 #florida{
     background-color: rgb(11, 140, 184);
-    background-image: url(../img/university_of_florida.svg);
 }
 #toops{
     background-color: rgb(238, 62, 62);
-    background-image: url(../img/topps.svg);
 }
 #bicycle{
     background-color: red;
-    background-image: url(../img/world_bicycle_relief.svg);
 }
 #hearst{
     background-color: lightblue;
-    background-image: url(../img/hearst_corp.svg);
 }
 #planet{
     background-color: blue;
-    background-image: url(../img/lonely_planet.svg);
 }
 #channel{
     background-color: yellow;
-    background-image: url(../img/clear_channel.svg);
 }
 
 #square-bottom{
