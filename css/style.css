@@ -1,4 +1,4 @@
-/* utilities */
+/* --------------UTILITIES-------------- */
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +18,6 @@
 }
 
 .small-container{
-    /* background-color: green; */
     width: 900px;
     margin: 0 auto;
 }
@@ -104,7 +103,11 @@
     background-color: lightgrey;
 }
 
-/* TOP-HEADER */
+.blue{
+    color: #0061FF;
+}
+
+/* --------------TOP-HEADER-------------- */
 .top-header{
     top: 0;
     left: 0;
@@ -135,7 +138,7 @@
     color: #0061FF;
 }
 
-/* BOTTOM-HEADER */
+/* --------------BOTTOM-HEADER --------------*/
 .bottom-header{
     height: 600px;
     background-color: lightblue;
@@ -147,10 +150,6 @@
 .bottom-header h1{
     font-size: 60px;
     margin-bottom: 20px;
-}
-
-#jumbo{
-    width: 100%;
 }
 
 .col.w-30 p{
@@ -181,12 +180,11 @@
     font-size: 12px;
 }
 
-/* BUSINESS-PLAN */
-.fa-check:before {
-    color: #0061FF;
+#jumbo{
+    width: 100%;
 }
 
-
+/* ----------BUSINESS-PLAN---------------*/
 
 .business-plan h2{
     margin-top: 200px;
@@ -250,7 +248,11 @@ hr{
     width: 20%;
 }
 
-/* ENTERPRISE */
+.fa-check:before {
+    color: #0061FF;
+}
+
+/* -----------ENTERPRISE----------- */
 .enterprise{
     border: 1px solid lightgrey;
     width: 100%;
@@ -278,7 +280,7 @@ hr{
     
 }
 
-/* PARTNER */
+/* -----------PARTNER----------- */
 .partner{
     margin-top: 70px;
 }
@@ -305,7 +307,7 @@ hr{
 }
 
 
-/* CARDS */
+/* -----------CARDS----------- */
 .operations h3{
     margin-bottom: 20px;
     font-size: 25px;
@@ -347,7 +349,7 @@ hr{
     margin-top: 10px;
 }
 
-/* SQUARE */
+/* -----------SQUARE----------- */
 
 .square-title h3{
     font-size: 30px;
@@ -358,7 +360,6 @@ hr{
 }
 
 .square-link a{
-    color: #0061FF;
     font-size: 12px;
 }
 
@@ -437,25 +438,29 @@ hr{
     color: purple;
 }
 
-/* FAQ */
+/* -----------FAQ----------- */
 .faq h1{
     margin-bottom: 30px;
     margin-top: 100px;
 }
 
-.row{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    padding: 20px 0;
-    font-size: 14px;
+#arrow{
+    padding-right: 30px;
 }
 
-.fa-chevron-down:before{
-    margin-left: 300px;
+#arrow i{
     cursor: pointer;
 }
 
-/* FOOTER */
+ .row{
+    font-weight: bold;
+    line-height: 80px;
+    height: 80px;
+    border-top: 1px solid gray;
+    font-size: 14px;
+}
+
+/* -----------FOOTER----------- */
 footer{
     background-color: black;
     color: white;
