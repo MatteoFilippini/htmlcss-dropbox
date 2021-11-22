@@ -103,6 +103,8 @@
 
 /* TOP-HEADER */
 .top-header{
+    top: 0;
+    left: 0;
     position: fixed;
     width: 100%;
     background-color: #fff;
@@ -114,11 +116,8 @@
     vertical-align: middle;
 }
 
-.main-menu ul{
-    list-style: none;
-}
-
 .main-menu li{
+    list-style-type: none;
     display: inline;
     margin-right: 20px;
     vertical-align: middle;
