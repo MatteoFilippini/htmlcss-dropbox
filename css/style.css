@@ -201,8 +201,6 @@
 
 
 
-
-
 .license{
     border: 1px solid lightgrey;
     line-height: 40px;
@@ -243,13 +241,14 @@
     list-style-type: none;
 }
 
+.license-functions li::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f00c";
+    color: #0061FF;
+}
+
 hr{
     margin: 20px 0;
     width: 20%;
-}
-
-.fa-check:before {
-    color: #0061FF;
 }
 
 /* -----------ENTERPRISE----------- */
